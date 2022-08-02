@@ -1,0 +1,17 @@
+:root{
+    --bound: 70px;
+}
+
+.box01{
+    justify-content: center;
+    color: rgb(80, 12, 16);
+}
+.bold{
+    font-weight: bold;
+}
+#box{
+    width: var(--bound);
+    height: var(--bound);
+    display: none;
+    position: relative;
+}
